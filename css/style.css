@@ -6,10 +6,18 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
 }
 
 img{
     width: 100%;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .header{
@@ -114,6 +122,25 @@ img{
     margin-top: 2.5em;
 }
 
+.people-cards-card{
+
+}
+
+.people-cards-card:hover{
+    outline: 5px solid #63c6ae;
+    outline-offset: -5px;
+}
+
+.people-cards-card:hover .people-cards-avatar img{
+    transform: translateY(-50%);
+}
+
+.people-cards-card:hover .people-cards-title,
+.people-cards-card:hover .people-cards-text{
+    color: #63c6ae;
+}
+
+
 .people-cards-img{
     width: 100%;
 }
@@ -128,10 +155,102 @@ img{
 .people-cards-content{
     text-align: center;
     padding: 40px 25px 10px;
+    border-left: 1px solid #dbe1e7 ;
+
 }
 
 
 .people-cards-title{
     color: #737c85;
     font-size: 21px;
+    font-weight: normal;    
 }
+
+.people-cards-text{
+    color: #929daf;
+    font-size: 14px;
+
+}
+
+.content{
+    background-color: #f8f9f9;
+    padding: 20px 0 80px;
+    border-top:1px solid #e3e3e3;
+}
+
+.content h3{
+    color: #737c85 ;
+    font-size: 21px;
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+.content p{
+    color: #929da5;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+.button-primary{
+    background-color: #69c6ae;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.button-secundary{
+    background-color: #455357;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+.button-primary:hover{
+    background-color: #929da5;
+    transition: .5s;
+}
+
+
+.button-secundary:hover{
+    background-color: #929da5;
+    transition: .5s;
+}
+
+.last-articles-title{
+    background-color: #63c6ae;
+    padding: 5px 0px;
+}
+
+.last-articles-title h2{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.last-articles-thumbs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 0;
+    background-color: yellow;
+}
+
+.last-articles-thumbs img{
+    display: block;
+    width: 100%;
+}
+
+
+
