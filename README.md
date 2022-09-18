@@ -4,5 +4,5 @@
 ## Vamos criar um **projeto top**
 responsivo 
 
-### Com Funcionalidades
+### Com *Funcionalidades*
 Menu hamburguer, Carousel Slider, Galeria de Fotos
