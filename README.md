@@ -17,4 +17,4 @@ Menu hamburguer, *Carousel Slider*, Galeria de Fotos
 
 #### Imagem
 
-![Logo](img/logo.png)
+![Logo](img/av04.png)
