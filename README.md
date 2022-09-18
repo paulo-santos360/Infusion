@@ -15,3 +15,6 @@
 ### Com Funcionalidades
 Menu hamburguer, *Carousel Slider*, Galeria de Fotos
 
+#### Imagem
+
+![Logo](img/logo.png)
