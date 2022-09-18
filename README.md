@@ -2,7 +2,7 @@
  Projeto Top
 
 ## Vamos criar um **projeto top**
-responsivo 
+**responsivo**
 
-### Com *Funcionalidades*
-Menu hamburguer, Carousel Slider, Galeria de Fotos
+### Com Funcionalidades
+Menu hamburguer, *Carousel Slider*, Galeria de Fotos
